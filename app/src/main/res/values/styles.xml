@@ -1,9 +1,7 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- res/values/themes.xml -->
 <resources xmlns:tools="http://schemas.android.com/tools">
 
-    <!-- Incorrect duplicate definition -->
-    <style name="Theme.KtPhoneAssistance" parent="Theme.Material3.DayNight.NoActionBar">
+    <!-- Correct usage -->
+    <style name="AppTheme" parent="Theme.KtPhoneAssistance">
         <!-- Customize your theme here -->
         <item name="colorPrimary">@color/purple_500</item>
         <item name="colorPrimaryVariant">@color/purple_700</item>
